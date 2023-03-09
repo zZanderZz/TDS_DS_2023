@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: "Roboto" , sans-serif;
+    font-family: "Roboto" , sans-serif;
 }
 
 header{
@@ -33,12 +33,84 @@ header{
     transition-delay: 0.5;
     transition: 0.3;
 
-
 }
 .bnt-sair:hover{
     background-color: #0d9dbb;
     padding: 10px 10px;
+    border-radius: 10px;
 
+}
+.Perfil{
+    text-align: center;
 
+}
+.imagen-perfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+nav{
+    background-color: #2f323a;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    margin-top: 70px;
+    padding-top: 25px;
+    transition: 0.8s;
+}
+nav h4{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-left: 40px;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+nav i{
+    margin-right: 10px;
 
+}
+nav a:hover{
+    background-color: #0d9dbb;
+    transition: 0.5s;
+
+}
+#btnMenu{  
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    left: 250px;
+    top: 23px;
+
+}
+#chkMenu{
+    display: none;
+}
+
+#chkMenu:checked~nav{
+    left: -190px;
+
+}
+#chkMenu:checked~nav a{
+    font-size: 22px;
+    margin-left: 165px;
+
+}
+
+#chkMenu:checked~nav span{
+    display: none;
+
+}
+.conteudo{
+    background-image: url('./https://pbs.twimg.com/profile_images/1349785257281777667/kuhCnRay_400x400.jpg');
+    background-position: center;
+    height: 100vh;
 }
