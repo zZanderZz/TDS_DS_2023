@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -109,8 +112,62 @@ nav a:hover{
     display: none;
 
 }
-.conteudo{
-    background-image: url('./https://pbs.twimg.com/profile_images/1349785257281777667/kuhCnRay_400x400.jpg');
+.Conteudo{
+    background-image: url('https://e0.pxfuel.com/wallpapers/987/222/desktop-wallpaper-nauris-on-twitter-pixel-art-landscape-cool-pixel-art-pixel-art-background-pixel-art-green.jpg');
     background-position: center;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.perfil-curriculo{
+    text-align: center;
+
+}
+.imagen-perfil-curriculo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+
+}
+
+h1 {
+    padding-top: 180px;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 1em;
+    bottom: 4em;
+    font-weight: bold;
+    font-size: 20px;
+}
+.topo_curriculo{
+    text-align: center;
+    line-height: 1em;
+    width: auto;
+
+}
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0  0 ;
+
+}
+li p {
+    line-height: 2em;
+
+}
+.contatos-curriculo{
+    margin: 0 0 0 10px ;
+    text-align: center;
+
+}
+
+footer {
+    background: lightblue;
+    width: auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 0 100px 0;
 }
