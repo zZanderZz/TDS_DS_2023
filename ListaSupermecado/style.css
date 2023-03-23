@@ -2,3 +2,40 @@
     text-decoration: line-through;
     color: brown;
 }
+body{
+    text-align: center;
+    background-image: url('https://blog.ciss.com.br/wp-content/uploads/2020/06/blog-cisslive-layout-de-supermercado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size:60px;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input:hover{
+    position:center;
+    height:20px;
+    font-size: 15px;
+    transition: 0.25s;
+}
+button:hover{
+    position:center;
+    height:20px;
+    font-size: 15px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+li{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li:hover{
+    font-size: 25px;
+    transition: 0.30px;
+}
+
+
