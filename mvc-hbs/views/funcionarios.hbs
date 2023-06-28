@@ -60,8 +60,8 @@
     }
     async function excluir(id) {
         await fetch(`/funcionarios/${id}`,
-            { method: "delete", headers: { "Content-Type": "application/json" } });
+        { method:"delete", headers: { "Content-Type": "application/json"} });
 
-        window.location.href = "funcionarios"
+        window.location.href= "funcionarios"
     }
 </script>
